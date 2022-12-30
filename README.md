@@ -1,0 +1,1 @@
+This project is about my personal portfolio, using my knowledge of HTML and CSS. It is based in my first project in HTML and CSS, available in https://github.com/jonaslimagt/myfirsthtmlcssproject;
