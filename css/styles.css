@@ -1,0 +1,9 @@
+* {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #26338C;
+}
+
+header, .hero {
+    background-color: #161E54;
+}
