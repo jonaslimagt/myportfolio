@@ -1,9 +1,86 @@
-* {
+body {
     margin: 0px;
-    font-family: sans-serif;
     background-color: #26338C;
 }
 
 header, .hero {
     background-color: #161E54;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container, .hero-container {
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.logo-text {
+    font-family: 'DM Serif Display', serif;
+    font-size: 28px;
+    font-style: italic;
+    color: #88E0EF;
+}
+
+.logo-second-color {
+    color: #FF9B6A;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-link {
+    font-family: 'DM Serif Display', serif;
+    font-size: 18px;
+    color: #FF9B6A;
+    padding-left: 24px;
+}
+
+.hero-title {
+    font-weight: normal;
+    font-family: 'DM Serif Display', serif;
+    font-size: 80px;
+    color: #88E0EF;
+    margin-bottom: 0px;
+}
+
+.hero-emphasis {
+    color: #FF5151;
+}
+
+.d20 {
+    width: 40px;
+    margin-right: 12px;
+    margin-bottom: 16px;
+}
+
+.first-d20 {
+    filter: invert(84%) sepia(27%) saturate(683%) hue-rotate(150deg) brightness(98%) contrast(91%);
+}
+
+.second-d20 {
+    filter: invert(70%) sepia(55%) saturate(1257%) hue-rotate(317deg) brightness(109%) contrast(101%);
+}
+
+.third-d20 {
+    filter: invert(41%) sepia(56%) saturate(2577%) hue-rotate(332deg) brightness(106%) contrast(100%);
+}
+
+.hero-subtext {
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    color: #FF9B6A;
+}
+
+.subtext-emphasis {
+    color: #88E0EF;
 }
