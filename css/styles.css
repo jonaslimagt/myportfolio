@@ -7,13 +7,13 @@ header, .hero {
     background-color: #161E54;
 }
 
-.header-container {
+.header-container, .hero-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header-container, .hero-container {
+.header-container, .hero-container, .about-container {
     margin-left: 120px;
     margin-right: 120px;
     padding-top: 24px;
@@ -22,7 +22,7 @@ header, .hero {
 
 .logo-text {
     font-family: 'DM Serif Display', serif;
-    font-size: 28px;
+    font-size: 32px;
     font-style: italic;
     color: #88E0EF;
 }
@@ -38,9 +38,18 @@ header, .hero {
 
 .header-link {
     font-family: 'DM Serif Display', serif;
-    font-size: 18px;
+    font-size: 20px;
+    padding-left: 48px;
+}
+
+a:link, a:visited, .header-link {
     color: #FF9B6A;
-    padding-left: 24px;
+    text-decoration: none;
+}
+
+a:hover, a:active, .header-link {
+    color: #FF5151;
+    text-decoration: none;
 }
 
 .hero-title {
@@ -73,14 +82,34 @@ header, .hero {
     filter: invert(41%) sepia(56%) saturate(2577%) hue-rotate(332deg) brightness(106%) contrast(100%);
 }
 
-.hero-subtext {
+.hero-subtext, .about-text {
     font-weight: lighter;
     font-family: 'Open Sans', sans-serif;
     font-style: italic;
+}
+
+.hero-subtext {
     font-size: 18px;
     color: #FF9B6A;
 }
 
 .subtext-emphasis {
+    color: #88E0EF;
+}
+
+img.hero-image {
+    width: 420px;
+    height: 420px;
+}
+
+.section-title {
+    font-weight: normal;
+    font-family: 'DM Serif Display', serif;
+    font-size: 36px;
+    color: #FF5151;
+}
+
+.about-text {
+    font-size: 18px;
     color: #88E0EF;
 }
