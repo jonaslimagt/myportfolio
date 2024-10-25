@@ -16,8 +16,8 @@ header, .hero {
 .header-container, .hero-container, .about-container {
     margin-left: 120px;
     margin-right: 120px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 18px;
+    padding-bottom: 12px;
 }
 
 .logo-text {
@@ -42,12 +42,12 @@ header, .hero {
     padding-left: 48px;
 }
 
-a:link, a:visited, .header-link {
+a.header-link:link, a.header-link:visited {
     color: #FF9B6A;
     text-decoration: none;
 }
 
-a:hover, a:active, .header-link {
+a.header-link:hover, a.header-link:active {
     color: #FF5151;
     text-decoration: none;
 }
@@ -58,6 +58,7 @@ a:hover, a:active, .header-link {
     font-size: 80px;
     color: #88E0EF;
     margin-bottom: 0px;
+    line-height: 1.6;
 }
 
 .hero-emphasis {
@@ -91,6 +92,7 @@ a:hover, a:active, .header-link {
 .hero-subtext {
     font-size: 18px;
     color: #FF9B6A;
+    padding-bottom: 48px;
 }
 
 .subtext-emphasis {
